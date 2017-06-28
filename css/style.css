@@ -30,6 +30,35 @@ body{
   min-height: 75vh;
 }
 
+#app-header h1.danger{
+  background-color: red;
+}
+
+.tv-show{
+  width: 100%;
+  overflow: hidden;
+  padding: 16px;
+  background-color: white;
+  margin-bottom: 16px;
+}
+
+.tv-show:hover{
+  background-color: #ecf0f1;
+}
+
+.tv-show img{
+  max-width: 60px;
+  max-width: 100px;
+}
+
+.tv-show .info{
+  padding-left: 20px;
+}
+
+.left{
+  float: left;
+}
+
 #app-footer{
   width: 100%;
   min-height: 10hv;
