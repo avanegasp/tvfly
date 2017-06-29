@@ -47,15 +47,37 @@ body{
 }
 
 .tv-show img{
-  max-width: 60px;
-  max-width: 100px;
+  margin-top: 20px;
+  margin-left: 30px;
+  max-width: 70%;
+}
+
+.tv-show img-container{
+  width: 20px;
+}
+
+#app-body .search-form{
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+#app-body .search-form input[type="text"]{
+  padding: 12px 16px;
+  border-radius: 6px;
+  width: 300px;
 }
 
 .tv-show .info{
-  padding-left: 20px;
+  width: 75%;
 }
 
 .left{
+  float: left;
+}
+
+.right{
   float: left;
 }
 
